@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: "Avenir Next", "Helvetica Neue", sans-serif;
+    font-family: "Avenir Next", "Avenir", "Helvetica Neue", sans-serif;
     font-style: italic;
     font-size: 24px;
     color: #F8FADF;
@@ -15,7 +15,7 @@ div {
   overflow: hidden;
 }
 
-img {
+#cone {
     height: 70px;
     width: auto;
     position: absolute;
@@ -23,6 +23,7 @@ img {
     -moz-animation: moveX 3s linear 0s infinite alternate;
     -o-animation: moveX 3s linear 0s infinite alternate;
     animation: moveX 5s linear 0s infinite alternate, moveY 7s linear 0s infinite alternate;
+    z-index: 0;
 }
 
 #timer {
@@ -32,22 +33,31 @@ img {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: 0;
 }
 
 #cloud {
     font-size: 24px;
-
+    height: 275px;
+    width: auto;
     color: white;
     margin: 0;
     position: absolute;
-    top: 53%;
+    top: 48.5%;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: 0;
 }
 
 @media only screen and (max-width: 736px) {
     body {
         font-size: 24px;
+    }
+
+    #cloud {
+      height: 215px;
+      width: auto;
+      top: 47.5%;
     }
 }
 
@@ -64,7 +74,7 @@ img {
   from { left: 0; } to { left: calc(100vw - 70px); }
 }
 @-webkit-keyframes moveY {
-  from { top: 0; } to { top: calc(100vh - 81px); }
+  from { top: 0; } to { top: calc(100vh - 75px); }
 }
 @-moz-keyframes moveY {
   from { top: 0; } to { top: calc(100vh - 81px); }
@@ -73,5 +83,5 @@ img {
   from { top: 0; } to { top: calc(100vh - 81px); }
 }
 @keyframes moveY {
-  from { top: 0; } to { top: calc(100vh - 81px); }
+  from { top: 0; } to { top: calc(100vh - 70px); }
 }
