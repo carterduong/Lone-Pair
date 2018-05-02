@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: "Avenir Next", san-serif;
+    font-family: "Avenir Next", "Helvetica Neue", sans-serif;
     font-style: italic;
     font-size: 24px;
     color: #F8FADF;
@@ -52,26 +52,26 @@ img {
 }
 
 @-webkit-keyframes moveX {
-  from { left: 0; } to { left: calc(100vw - 106px); }
+  from { left: 0; } to { left: calc(100vw - 70px); }
 }
 @-moz-keyframes moveX {
-  from { left: 0; } to { left: calc(100vw - 106px); }
+  from { left: 0; } to { left: calc(100vw - 70px); }
 }
 @-o-keyframes moveX {
-  from { left: 0; } to { left: calc(100vw - 106px); }
+  from { left: 0; } to { left: calc(100vw - 70px); }
 }
 @keyframes moveX {
-  from { left: 0; } to { left: calc(100vw - 106px); }
+  from { left: 0; } to { left: calc(100vw - 70px); }
 }
 @-webkit-keyframes moveY {
-  from { top: 0; } to { top: calc(100vh - 120px); }
+  from { top: 0; } to { top: calc(100vh - 81px); }
 }
 @-moz-keyframes moveY {
-  from { top: 0; } to { top: calc(100vh - 120px); }
+  from { top: 0; } to { top: calc(100vh - 81px); }
 }
 @-o-keyframes moveY {
-  from { top: 0; } to { top: calc(100vh - 120px); }
+  from { top: 0; } to { top: calc(100vh - 81px); }
 }
 @keyframes moveY {
-  from { top: 0; } to { top: calc(100vh - 120px); }
+  from { top: 0; } to { top: calc(100vh - 81px); }
 }

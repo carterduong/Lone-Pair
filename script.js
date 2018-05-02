@@ -11,21 +11,6 @@ $(document).ready(function(){
       var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
       var seconds = Math.floor((distance % (1000 * 60)) / 1000);
       var ms = Math.floor(distance % 1000);
-
-      /*
-      if (days < 10) {
-        days = "0" + days;
-      }
-      if (hours < 10) {
-        hours = "0" + hours;
-      }
-      if (minutes < 10) {
-        minutes = "0" + minutes;
-      }
-      if (seconds < 10) {
-        seconds = "0" + seconds;
-      }*/
-
       
       if (ms < 100 && ms > 9) {
         ms = "0" + ms;
@@ -36,8 +21,6 @@ $(document).ready(function(){
       else if (ms < 1) {
         ms = "000";
       }
-
-      console.log(ms);
 
       //document.getElementById("timer").innerHTML = days + ":" + hours + ":" + minutes + ":" + seconds;
       document.getElementById("timer").innerHTML = days + "d : " + hours + "h : " + ms + "ms" + "<br>" + "☁︎&emsp;☁&emsp;☁︎︎";
