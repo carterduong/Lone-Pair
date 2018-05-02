@@ -19,9 +19,9 @@ div {
     height: 70px;
     width: auto;
     position: absolute;
-    -webkit-animation: moveX 3.05s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
-    -moz-animation: moveX 3s linear 0s infinite alternate;
-    -o-animation: moveX 3s linear 0s infinite alternate;
+    -webkit-animation: moveX 5s linear 0s infinite alternate, moveY 7s linear 0s infinite alternate;
+    -moz-animation: moveX 5s linear 0s infinite alternate, moveY 7s linear 0s infinite alternate;
+    -o-animation: moveX 5s linear 0s infinite alternate, moveY 7s linear 0s infinite alternate;
     animation: moveX 5s linear 0s infinite alternate, moveY 7s linear 0s infinite alternate;
     z-index: 0;
 }
