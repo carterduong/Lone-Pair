@@ -1,7 +1,9 @@
 $(document).ready(function(){
     
-    var countDownDate = new Date("May 4, 2018 16:38:00").getTime(); // 4:38pm
+    var countDownDate = new Date("May 5 2018 16:38:00").getTime(); // 4:38pm
     var x = setInterval(function() {
+
+      console.log(countDownDate);
 
       var now = new Date().getTime();
       var distance = countDownDate - now;
