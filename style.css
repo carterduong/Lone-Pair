@@ -36,52 +36,38 @@ div {
     z-index: 0;
 }
 
-#cloud {
-    font-size: 24px;
-    height: 275px;
-    width: auto;
-    color: white;
-    margin: 0;
-    position: absolute;
-    top: 48.5%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 0;
-}
-
 @media only screen and (max-width: 736px) {
-    body {
-        font-size: 24px;
-    }
+  body {
+      font-size: 24px;
+  }
 
-    #cloud {
-      height: 215px;
-      width: auto;
-      top: 47.5%;
-    }
+  #cone {
+    height: 40px;
+    widht: auto;
+  }
 }
 
 @-webkit-keyframes moveX {
-  from { left: 0; } to { left: calc(100vw - 60px); }
+  from { left: 0; } to { left: calc(100vw - 40px); }
 }
 @-moz-keyframes moveX {
-  from { left: 0; } to { left: calc(100vw - 60px); }
+  from { left: 0; } to { left: calc(100vw - 40px); }
 }
 @-o-keyframes moveX {
-  from { left: 0; } to { left: calc(100vw - 60px); }
+  from { left: 0; } to { left: calc(100vw - 40px); }
 }
 @keyframes moveX {
-  from { left: 0; } to { left: calc(100vw - 60px); }
+  from { left: 0; } to { left: calc(100vw - 40px); }
 }
 @-webkit-keyframes moveY {
-  from { top: 0; } to { top: calc(100vh - 69px); }
+  from { top: 0; } to { top: calc(100vh - 46px); }
 }
 @-moz-keyframes moveY {
-  from { top: 0; } to { top: calc(100vh - 69px); }
+  from { top: 0; } to { top: calc(100vh - 46px); }
 }
 @-o-keyframes moveY {
-  from { top: 0; } to { top: calc(100vh - 69px); }
+  from { top: 0; } to { top: calc(100vh - 46px); }
 }
 @keyframes moveY {
-  from { top: 0; } to { top: calc(100vh - 69px); }
+  from { top: 0; } to { top: calc(100vh - 46px); }
 }
